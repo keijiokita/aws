@@ -14,8 +14,9 @@ default: &default
   encoding: utf8
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: root
-  password:
-  host: localhost
+  password: password
+  host: database-1.cr2cgg4atgk9.ap-northeast-1.rds.amazonaws.com
+
 
 development:
   <<: *default
