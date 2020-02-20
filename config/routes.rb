@@ -1,3 +1,9 @@
 Rails.application.routes.draw do
-#   root 'application#hello'
+  
+  resources :shots
+  
+  devise_for :users, controllers: { registrations: 'registrations' }
+  
+  root 'shots#index'
+
 end
