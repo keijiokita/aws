@@ -1,12 +1,14 @@
-# DesignFinder ~~ デザイナーによる、デザイナーのための美しいデザインSNS ~~
+# DesignFinder 
+~~ デザイナーによる、デザイナーのための美しいデザインSNS ~~
 
-* URL http://54.64.164.154:3001/
+## URL 
+http://54.64.164.154:3001/
 
 
-使用技術
+## 使用技術
 バックエンド
-Ruby 2.5.5
-Rails 5.1.7
+* Ruby 2.5.5
+* Rails 5.1.7
 Docker 19.03.5
 Docker-compose 1.16.1
 Git 2.17.1
