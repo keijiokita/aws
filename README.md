@@ -23,9 +23,8 @@ Things you may want to cover:
 
 * ...
 
-Myfavorite_pleace
-ツイッター風の画像＋自分の好きな場所の位置情報を投稿するアプリです
-
+MyDesignCollection
+デザイナーによる、デザイナーのための美しいデザインSNS
 URL
 http://54.64.164.154:3001/
 
