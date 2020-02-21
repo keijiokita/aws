@@ -23,8 +23,8 @@ Things you may want to cover:
 
 * ...
 
-MyDesignCollection
-デザイナーによる、デザイナーのための美しいデザインSNS
+DesignFinder ~~ デザイナーによる、デザイナーのための美しいデザインSNS ~~
+
 URL
 http://54.64.164.154:3001/
 
@@ -45,7 +45,8 @@ AWS(EC2, RDS for MySQL 8.0.16, S3, VPC, Route53, ALB, ACM)
 フロント
 slim
 scss
-bootstarap
+bootstarap 4.4.1
+font-awesome 4.7.0
 JQuery
 
 開発環境
