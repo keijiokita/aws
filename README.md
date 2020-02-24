@@ -46,7 +46,7 @@ slim
 * deviseを用いたユーザー登録&ログイン機能
 * CarrierWaveを用いた画像のアップロード機能
 
-CircleCI と Capistrano を用いた CI/CD 機能
+*CircleCI と Capistrano を用いた CI/CD 機能
 Rspec による自動テスト機能
 位置情報投稿機能(Google Maps API/Geocoding API)
 投稿一覧・投稿詳細表示機能
@@ -57,4 +57,5 @@ Rspec による自動テスト機能
 フォロー機能
 検索機能(Ransack)
 通知機能(初回のいいね、フォロー)
-アーキテクチャ図
+
+## アーキテクチャ図
