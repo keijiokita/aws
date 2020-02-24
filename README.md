@@ -36,10 +36,11 @@ Capistrano
 * font-awesome 4.7.0
 * JQuery 2.1.3
 slim
+bulma 
+Canva 
 
-## 開発環境
-* macOS Catalina 10.15.3 (ローカル開発環境)
-* AWS Cloud9 Ubuntu 18.04 (クラウド開発環境）
+
+）
 
 ## 機能一覧
 
@@ -47,6 +48,7 @@ slim
 * CarrierWaveを用いた画像のアップロード機能
 
 *CircleCI と Capistrano を用いた CI/CD 機能
+
 Rspec による自動テスト機能
 位置情報投稿機能(Google Maps API/Geocoding API)
 投稿一覧・投稿詳細表示機能
@@ -57,5 +59,10 @@ Rspec による自動テスト機能
 フォロー機能
 検索機能(Ransack)
 通知機能(初回のいいね、フォロー)
+
+
+## 開発環境
+* macOS Catalina 10.15.3 (ローカル開発環境)
+* AWS Cloud9 Ubuntu 18.04 (クラウド開発環境）
 
 ## アーキテクチャ図
