@@ -96,6 +96,10 @@ document.addEventListener("turbolinks:load", function() {
 				$(this).children('.shot-data').toggleClass('visible');
 			});
 		}
+		
+		// window.addEventListener('DOMContentLoaded', function(){
+		// 		$(this).children('.shot-data').toggleClass('visible');
+		// });
 
 	};
 	Shots.previewShot();
