@@ -34,7 +34,7 @@ Capistrano
 * scss
 * Bootstarap 4.4.1
 * font-awesome 4.7.0
-* JQuery
+* JQuery 2.1.3
 slim
 
 ## 開発環境
