@@ -61,7 +61,7 @@ http://54.64.164.154:3001/
 * deviseを用いたユーザー登録&ログイン機能
 
 * CarrierWaveを用いた画像のアップロード機能
- <p>jpg, jpeg, gif, png画像に対応可能（詳細はuser_shot_uploader.rbで確認可)</p>
+    <p>jpg, jpeg, gif, png画像に対応可能（詳細はuser_shot_uploader.rbで確認可)</p>
 
 * 投稿一覧・投稿詳細表示機能
 
