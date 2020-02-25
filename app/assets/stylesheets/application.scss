@@ -20,7 +20,7 @@ $pink-invert: #fff;
 $primary: $pink;
 $primary-invert: $pink-invert;
 $link: $primary;
-$link-hover: darken($primary, 20%);
+$link-hover: darken($primary, 80%);
 
 
 @import "bulma";
@@ -74,4 +74,11 @@ html, body {
 
 .visible {
 	display: block !important;
+}
+
+footer{
+	background: #443E3C;
+	padding: 24px 0;
+    color: white;
+	text-align: center;
 }
