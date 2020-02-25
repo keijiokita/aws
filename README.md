@@ -42,4 +42,5 @@ http://54.64.164.154:3001/
 * AWS Cloud9 Ubuntu 18.04 (クラウド開発環境）
 
 ## アーキテクチャ図
+<img width="964" alt="aws architecture 0225" src="https://user-images.githubusercontent.com/44191141/75234814-94eb9c00-57fe-11ea-93d7-c70137ba69a3.png">
 
