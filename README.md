@@ -8,23 +8,23 @@ http://54.64.164.154:3001/
 
 ### バックエンド
 
-* Ruby 2.5.5
-* Rails 5.1.7
-* Docker 19.03.5
+* Ruby ver2.5.5
+* Rails ver5.1.7
+* Docker ver19.03.5
 * AWS Elastic Container Registry
-* Docker-compose 1.16.1
-* Git 2.17.1
+* Docker-compose ver1.16.1
+* Git ver2.17.1
 * AWS EC2
-* AWS RDS for MySQL 8.0.16
+* AWS RDS for MySQL ver8.0.16
 * AWS S3
 * AWS VPC
 
 
 ### フロント
 * SCSS
-* Bootstarap 4.4.1
-* font-awesome 4.7.0
-* JQuery 2.1.3
+* Bootstarap ver4.4.1
+* font-awesome ver4.7.0
+* JQuery ver2.1.3
 * bulma 
 
 
