@@ -1,6 +1,6 @@
 # DesignFinder 
 デザイナーによる、全てのデザイナーのための美しいデザインに特化したSNSです。
-
+<br></br>
 <img width="1287" alt="スクリーンショット 2020-02-25 18 44 33" src="https://user-images.githubusercontent.com/44191141/75234988-ee53cb00-57fe-11ea-8f5a-4f052d5e0386.png">
 
 
@@ -62,8 +62,8 @@ http://54.64.164.154:3001/
 * deviseを用いたユーザー登録&ログイン機能
 
 * CarrierWaveを用いた画像のアップロード機能
- 　jpg, jpeg, gif, png画像をアップロード可能
-　（詳細はuser_shot_uploader.rbで確認可)
+ 　<p>jpg, jpeg, gif, png画像をアップロード可能</p>
+　 <p>（詳細はuser_shot_uploader.rbで確認可)</p>
 
 * 投稿一覧・投稿詳細表示機能
 
