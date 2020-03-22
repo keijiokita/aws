@@ -1,0 +1,399 @@
+[33mcommit f972b1ec39c92359f0c0af5aff985a05bca4e40f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Sun Mar 22 02:33:16 2020 +0000
+
+    uploader updated
+
+[33mcommit 6b92c3252afbaca19939811a26b56c45ef8f3831[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Sun Mar 22 02:16:27 2020 +0000
+
+    gem 'fog-aws' added
+
+[33mcommit be2ca27a286daa76236332af8607801e767e4d5a[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Sun Mar 22 01:46:53 2020 +0000
+
+    gem fog added
+
+[33mcommit 765311d5ec3526a6de53b052a48ae1bc3f888864[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Sun Mar 22 01:45:24 2020 +0000
+
+    carrierwave.rb updated
+
+[33mcommit fcda4abca1663576dce840753701bd1977d81507[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Sun Mar 22 01:13:07 2020 +0000
+
+    readme updated
+
+[33mcommit 0a099b97e576058fb391dfd0282f4e71a20ed829[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Sun Mar 22 00:43:23 2020 +0000
+
+    readme updated
+
+[33mcommit 9dc01e0bf16a5850e1fc168e4bbcd3231da45753[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Wed Mar 18 23:35:32 2020 +0000
+
+    test.rb modified
+
+[33mcommit b98a318688deeebc13665c8e90f5ecc4f35b5771[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Tue Mar 10 05:13:04 2020 +0000
+
+    before adding gems
+
+[33mcommit f165ca38005838bf2e59685018a5ef1051ecfecd[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Tue Feb 25 16:58:48 2020 +0000
+
+    testuser added
+
+[33mcommit 6feb01494e70135631c025b675f03efa172a722e[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Tue Feb 25 16:13:55 2020 +0000
+
+    hero.html fixed
+
+[33mcommit c640c90cc5ee139749b6bbe47bc0fff712cdd24d[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Tue Feb 25 16:11:42 2020 +0000
+
+    app.scss fixed
+
+[33mcommit 46e95f77854f788fade04311e837210dea43f710[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Tue Feb 25 16:09:48 2020 +0000
+
+    navbar changed
+
+[33mcommit ac3219e2d2595dc8948b7521c8304173f032608e[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Tue Feb 25 15:53:51 2020 +0000
+
+    footer updated
+
+[33mcommit 0624866ea02c443ddaa8c4fb48871e723fe0d960[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Tue Feb 25 11:20:02 2020 +0000
+
+    footer updated
+
+[33mcommit 959be18863334163d32cbe13bbaa191256e6c16a[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Tue Feb 25 10:17:56 2020 +0000
+
+    upload file restriction
+
+[33mcommit a6bb277506b4ace64cf86206a3b8be09d249d9a0[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Tue Feb 25 10:12:19 2020 +0000
+
+    readme updated
+
+[33mcommit 0dc8f3bb656494aaf624fe639ebba90cce0f14c3[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Tue Feb 25 10:11:04 2020 +0000
+
+    readme updated
+
+[33mcommit be437a85e4cb6da09e48c85276f55caa21977479[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Tue Feb 25 10:09:11 2020 +0000
+
+    readme updated
+
+[33mcommit 2818385e16708d4621f53b2b162501b051086f63[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Tue Feb 25 10:06:59 2020 +0000
+
+    readme updated
+
+[33mcommit d8929db1e3246db8a8df29485480af57b0394715[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Tue Feb 25 10:01:03 2020 +0000
+
+    readme updated
+
+[33mcommit b922adf1d73648c641d4fffdc5576a5e1175cf36[m
+Merge: 7d2ccb2 34271f7
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Tue Feb 25 09:53:31 2020 +0000
+
+    merging
+
+[33mcommit 7d2ccb2f115063fae9055c5e1425500d7827b2ac[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Tue Feb 25 09:49:39 2020 +0000
+
+    readme updated
+
+[33mcommit 34271f7ac236dcf727f1b997a6589d5b6d96fadb[m
+Author: keijiokita <44191141+keijiokita@users.noreply.github.com>
+Date:   Tue Feb 25 18:45:58 2020 +0900
+
+    Update README.md
+
+[33mcommit 202143238a46bcd1dc59defd6b9a08c2643890c6[m
+Author: keijiokita <44191141+keijiokita@users.noreply.github.com>
+Date:   Tue Feb 25 18:44:47 2020 +0900
+
+    Update README.md
+
+[33mcommit fe917392a59959ffd853d699190a47e84d5a0889[m
+Author: keijiokita <44191141+keijiokita@users.noreply.github.com>
+Date:   Tue Feb 25 18:43:10 2020 +0900
+
+    Update README.md
+
+[33mcommit 034a9a55781bb0f1b2516394118e9c960f1d4bb8[m
+Author: keijiokita <44191141+keijiokita@users.noreply.github.com>
+Date:   Tue Feb 25 18:41:39 2020 +0900
+
+    Update README.md
+
+[33mcommit 7883381f56c627f3074fc4cdba9ceb4022daa6cb[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Tue Feb 25 07:32:01 2020 +0000
+
+    new pics added
+
+[33mcommit e62e16368a452eea4133b2c141b6df01a4b7b8da[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Tue Feb 25 07:23:31 2020 +0000
+
+    new pics
+
+[33mcommit ce2317b7d66bb0511bcabc3a3c37ea9aae90b865[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Tue Feb 25 07:09:42 2020 +0000
+
+    readme added
+
+[33mcommit cd5a365da268a91b17072b6b6018f53abbc4b778[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Mon Feb 24 08:29:40 2020 +0000
+
+    before bundle update
+
+[33mcommit 8658a307be8fe9c9be5384fc0340939bd3d5f188[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Mon Feb 24 04:38:55 2020 +0000
+
+    font size changed
+
+[33mcommit 6bd8b22737dc92878b9db25bf637532df0e36901[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Mon Feb 24 04:35:25 2020 +0000
+
+    =here fixed
+
+[33mcommit 8856fb1c51b90270dbdf5449580f48398bc4bb52[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Mon Feb 24 04:00:22 2020 +0000
+
+    app title changed
+
+[33mcommit 983ca6106c682fbadf0cb1a5fd1906a6ec55592a[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Mon Feb 24 03:53:38 2020 +0000
+
+    jquery 2.1.3 readme
+
+[33mcommit 4ada9d9a731595e6e9bb2b2fcadabe72d5df7b0f[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Mon Feb 24 03:51:39 2020 +0000
+
+    jquery 2.1.3
+
+[33mcommit 3a81a92daeeee8a8a79736e93ae91e6d691d0aa9[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Mon Feb 24 02:35:41 2020 +0000
+
+    jquery added
+
+[33mcommit 3042579076930fc6aafd78c9bc0278ea956d4201[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Mon Feb 24 02:08:27 2020 +0000
+
+    home#index deleted
+
+[33mcommit 4c5f5cd609f26de683d9e4ee8ed78d305d0f3938[m
+Merge: 790d379 c325f88
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Mon Feb 24 01:59:24 2020 +0000
+
+    mergeing
+
+[33mcommit 790d3791cafe0969e29b69809d04782191c94ffa[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Mon Feb 24 01:55:02 2020 +0000
+
+    pics deleted
+
+[33mcommit c325f88dece5bb384afc5eb4d6999462b92287b6[m
+Author: keijiokita <44191141+keijiokita@users.noreply.github.com>
+Date:   Fri Feb 21 18:48:39 2020 +0900
+
+    Update README.md
+
+[33mcommit ea147dd4943e38b3a080bc15a31a5da1109086b5[m
+Author: keijiokita <44191141+keijiokita@users.noreply.github.com>
+Date:   Fri Feb 21 17:30:19 2020 +0900
+
+    Update README.md
+
+[33mcommit 1b767f58245c5fe20bb0117d3c6ff0fe7e8e4fbf[m
+Author: keijiokita <44191141+keijiokita@users.noreply.github.com>
+Date:   Fri Feb 21 17:29:03 2020 +0900
+
+    Update README.md
+
+[33mcommit dc328c6a7fc6ad89c6058e20aea44560ef1673b5[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Fri Feb 21 08:11:44 2020 +0000
+
+    22nd commit
+
+[33mcommit 13889fa7eb8f3fc36eb73ed6a91a7ccc95b578e2[m
+Merge: 2971c2b af12a02
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Fri Feb 21 04:32:08 2020 +0000
+
+    20th commit
+
+[33mcommit af12a026b24a9f202d60a85eac8b48a61b4b88e7[m
+Author: keijiokita <44191141+keijiokita@users.noreply.github.com>
+Date:   Fri Feb 21 13:29:29 2020 +0900
+
+    Update README.md
+
+[33mcommit c9e60644ecc5c24686b5102e516c048898210144[m
+Author: keijiokita <44191141+keijiokita@users.noreply.github.com>
+Date:   Fri Feb 21 13:17:53 2020 +0900
+
+    Update README.md
+
+[33mcommit 2971c2b47b48b7f6c7a284b149f205ee42eb6224[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Fri Feb 21 04:13:43 2020 +0000
+
+    18th commit
+
+[33mcommit 5d53ed76a713cd0f1283d688eb33616fa30e097b[m
+Author: keijiokita <44191141+keijiokita@users.noreply.github.com>
+Date:   Fri Feb 21 12:29:18 2020 +0900
+
+    Update README.md
+
+[33mcommit 3fc78ef1617b077218e7ecc33aad625a2d48904b[m
+Author: keijiokita <44191141+keijiokita@users.noreply.github.com>
+Date:   Fri Feb 21 12:15:51 2020 +0900
+
+    Update README.md
+
+[33mcommit 512197ae771b593ad485dc0d4f6fc39130f84bc8[m
+Author: keijiokita <44191141+keijiokita@users.noreply.github.com>
+Date:   Fri Feb 21 12:09:51 2020 +0900
+
+    Update README.md
+
+[33mcommit db1649903cbcf6c1c05a464b24f6db2cfd6749f3[m
+Author: keijiokita <44191141+keijiokita@users.noreply.github.com>
+Date:   Fri Feb 21 12:09:10 2020 +0900
+
+    Update README.md
+
+[33mcommit 409fe0f37b6ce99ae54be9a50585cda3be5fcf7f[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Fri Feb 21 03:02:08 2020 +0000
+
+    17th commit
+
+[33mcommit 37c83ebf707ec71819c66ff12bdd56e2ab24f650[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Fri Feb 21 01:21:41 2020 +0000
+
+    16th commit
+
+[33mcommit ce0a33f62c5c559f0e6569006081ddd4b4ab0213[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Thu Feb 20 06:32:50 2020 +0000
+
+    15th commit
+
+[33mcommit dfe9d49c15d2c25fd376677818c491fdab5a3faf[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Thu Feb 20 02:48:18 2020 +0000
+
+    14th commit
+
+[33mcommit fffe23a1d3bdb4920cff796a00880b257f473cbe[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Thu Feb 20 01:44:17 2020 +0000
+
+    13th commit
+
+[33mcommit a0ae30e4f9bf9346dd70d2cf8b1f1218ec05e21a[m[33m ([m[1;31mnew/master[m[33m)[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Tue Feb 18 06:28:08 2020 +0000
+
+    rds added
+
+[33mcommit 493c39856d59e63838705aa547ffcacf48fb95ab[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Fri Feb 14 16:56:37 2020 +0000
+
+    11th commit
+
+[33mcommit 45343efc7a4025d61383b4000c1d2eabff3c34b8[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Fri Feb 14 16:46:44 2020 +0000
+
+    10th commit
+
+[33mcommit e50ababb174b81aac77f666ae25ea2de305c8312[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Fri Feb 14 16:39:09 2020 +0000
+
+    9th commit
+
+[33mcommit 93294c906b0857de302daa4a6367a6c399f9567f[m
+Merge: acd7733 2df32b2
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Fri Feb 14 16:31:03 2020 +0000
+
+    8th commit
+
+[33mcommit acd7733a7b9c41c36d89df76e5510aaa20ab5fe2[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Fri Feb 14 16:16:34 2020 +0000
+
+    7th commit
+
+[33mcommit 2df32b2fc36aba9ea39234ad110f8b654b8eeee0[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Wed Feb 12 22:40:41 2020 +0000
+
+    4th commit
+
+[33mcommit ffce55c4cb3a556aa59a87a587c76168b27f8cfe[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Wed Feb 12 22:37:21 2020 +0000
+
+    3rd commit
+
+[33mcommit d59acbb1149f22d16f6fd585f21d001a7fd28c3c[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Wed Feb 12 20:24:32 2020 +0000
+
+    2nd commit
+
+[33mcommit 9611f743d04f2f8f7f6615cf78fcbcfc29316b82[m
+Author: keijiokita <keiji.okita.ca@icloud.com>
+Date:   Wed Feb 12 18:31:13 2020 +0000
+
+    1st commit

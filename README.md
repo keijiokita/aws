@@ -24,7 +24,7 @@ http://keijiokita.work:3001/
 データベース
 * AWS RDS for MySQL ver8.0.16
 
-## 使用技術
+## 主要使用技術
 
 ### バックエンド
 
@@ -66,12 +66,12 @@ http://keijiokita.work:3001/
 * bulma 
 
 
-## 機能一覧
+## 機能要件一覧
 
-* deviseを用いたユーザー登録&ログイン機能
+* deviseを用いたユーザー登録/編集 & ログイン機能
 
-* CarrierWaveを用いた画像のアップロード機能
-    <p>jpg, jpeg, gif, png画像に対応可能（詳細はuser_shot_uploader.rbで確認可)</p>
+* CarrierWave, MiniMagick, AWS S3 を用いた画像のアップロード機能
+    <p>jpg, jpeg, gif, png画像に対応可能</p>
 
 * 投稿一覧・投稿詳細表示機能
 
@@ -82,6 +82,8 @@ http://keijiokita.work:3001/
 * 投稿コメント機能 
 
 * いいね機能
+
+* bootstrapによるレスポンシブ対応デザイン
 
 
 ## テストユーザーアカウント
