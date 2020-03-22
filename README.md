@@ -1,5 +1,6 @@
 # DesignFinder 
 デザイナーによる、全てのデザイナーのための美しいデザインに特化したSNSです。
+<br></br>
 <img width="1287" alt="スクリーンショット 2020-02-25 18 44 33" src="https://user-images.githubusercontent.com/44191141/75234988-ee53cb00-57fe-11ea-8f5a-4f052d5e0386.png">
 
 
@@ -8,14 +9,20 @@
 
 ## URL 
 
-http://54.64.164.154:3001/
-
+http://keijiokita.work:3001/
 
 ## 開発環境
 
 * macOS Catalina 10.15.3 (ローカル開発環境)
 
 * AWS Cloud9 Ubuntu 18.04LTS  (クラウド開発環境）
+
+## 本番環境
+サーバー
+* AWS EC2 Ubuntu 18.04LTS
+
+データベース
+* AWS RDS for MySQL ver8.0.16
 
 ## 使用技術
 
@@ -43,9 +50,9 @@ http://54.64.164.154:3001/
 
 * AWS IAM
 
-### フロント
+### フロントエンド
 
-* SCSS
+* SCSS-rails
 
 * Bootstarap ver4.4.1
 
