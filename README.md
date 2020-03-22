@@ -50,6 +50,9 @@ http://keijiokita.work:3001/
 
 * AWS IAM
 
+* AWS Route 53 
+
+
 ### フロントエンド
 
 * SCSS-rails
