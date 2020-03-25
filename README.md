@@ -5,11 +5,11 @@
 
 
 ## アーキテクチャ図
-<img width="964" alt="aws architecture 0225" src="https://user-images.githubusercontent.com/44191141/75234814-94eb9c00-57fe-11ea-93d7-c70137ba69a3.png">
+<img width="1040" alt="0325" src="https://user-images.githubusercontent.com/44191141/77497925-d0c36100-6e91-11ea-95d3-78c4a4a1c91c.png">
 
 ## URL 
 
-http://keijiokita.work:3001/
+https://keijiokita.com
 
 ## 開発環境
 
