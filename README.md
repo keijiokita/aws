@@ -52,6 +52,10 @@ https://keijiokita.com
 
 * AWS Route 53 
 
+* AWS Certificate Manager
+
+* AWS Application Load Balancer 
+
 
 ### フロントエンド
 
@@ -66,7 +70,7 @@ https://keijiokita.com
 * bulma 
 
 
-## 機能要件一覧
+## 主要機能要件、gem一覧
 
 * deviseを用いたユーザー登録/編集 & ログイン機能
 
