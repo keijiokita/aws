@@ -7,7 +7,7 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.1.6'
+gem 'rails', '5.2.0'
 # Use mysql as the database for Active Record
 gem 'mysql2'
 # Use Puma as the app server
@@ -15,12 +15,12 @@ gem 'puma'
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier'
+gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails'
+gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -29,11 +29,11 @@ gem 'jbuilder'
 
 gem "bulma-rails"
 gem 'devise'
-gem 'carrierwave'
+gem 'carrierwave', '~> 1.2', '>= 1.2.1'
 gem 'simple_form'
 gem "mini_magick"
 gem 'impressionist'
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'gravatar_image_tag'
 gem 'acts_as_votable'
 gem 'activesupport'
@@ -58,8 +58,8 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen'
   gem 'better_errors'
-  gem 'guard'
-  gem 'guard-livereload', require: false
+  gem 'guard', '~> 2.14', '>= 2.14.1'
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
