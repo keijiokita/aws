@@ -36,7 +36,7 @@ gem 'impressionist', '~> 1.6'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'gravatar_image_tag'
 gem 'acts_as_votable', '~> 0.11.1'
-
+gem 'activesupport', '~> 5.1.7.rc1'
 
 
 # Use Capistrano for deployment
