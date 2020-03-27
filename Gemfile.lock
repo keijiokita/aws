@@ -243,7 +243,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activesupport (~> 5.1.7.rc1)
+  activesupport
   acts_as_votable (~> 0.11.1)
   better_errors (~> 2.4)
   bulma-rails (~> 0.6.1)
