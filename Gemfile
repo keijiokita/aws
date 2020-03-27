@@ -27,17 +27,18 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 
-gem "bulma-rails", "~> 0.6.1"
-gem 'devise', '~> 4.3'
-gem 'carrierwave', '~> 1.2', '>= 1.2.1'
-gem 'simple_form', '~> 3.5'
+gem "bulma-rails"
+gem 'devise'
+gem 'carrierwave'
+gem 'simple_form'
 gem "mini_magick"
-gem 'impressionist', '~> 1.6'
-gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
+gem 'impressionist'
+gem 'jquery-rails'
 gem 'gravatar_image_tag'
-gem 'acts_as_votable', '~> 0.11.1'
+gem 'acts_as_votable'
 gem 'activesupport'
 gem 'railties'
+gem 'acts_as_votable'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -45,20 +46,20 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '~> 2.13'
+  gem 'capybara'
   gem 'selenium-webdriver'
 end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
-  gem 'web-console', '>= 3.3.0'
-  gem 'listen', '>= 3.0.5', '< 3.2'
+  gem 'web-console'
+  gem 'listen'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'better_errors', '~> 2.4'
-  gem 'guard', '~> 2.14', '>= 2.14.1'
-  gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
+  gem 'spring-watcher-listen'
+  gem 'better_errors'
+  gem 'guard'
+  gem 'guard-livereload', require: false
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
