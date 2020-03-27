@@ -37,6 +37,7 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'gravatar_image_tag'
 gem 'acts_as_votable', '~> 0.11.1'
 gem 'activesupport'
+gem 'railties'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
