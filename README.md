@@ -13,36 +13,36 @@ https://keijiokita.com
 
 ## 開発環境
 
-* macOS Catalina 10.15.3 (ローカル開発環境)
+* macOS Catalina (10.15.3) (ローカル開発環境)
 
-* AWS Cloud9 Ubuntu 18.04LTS  (クラウド開発環境）
+* AWS Cloud9 Ubuntu (18.04LTS)  (クラウド開発環境）
 
 ## 本番環境
 サーバー
-* AWS EC2 Ubuntu 18.04LTS
+* AWS EC2 Ubuntu (18.04LTS)
 
 データベース
-* AWS RDS for MySQL ver8.0.16
+* AWS RDS for MySQL (8.0.16)
 
 ## 主要使用技術
 
 ### バックエンド
 
-* Ruby ver2.5.5
+* Ruby (2.5.5)
 
-* Rails ver5.1.7
+* Rails (5.1.7)
 
-* Docker ver19.03.5
+* Docker (19.03.5)
 
 * AWS Elastic Container Registry
 
-* Docker-compose ver1.16.1
+* Docker-compose (1.16.1)
 
-* Git ver2.17.1
+* Git (2.17.1)
 
-* AWS EC2 Ubuntu 18.04LTS 
+* AWS EC2 Ubuntu (18.04LTS) 
 
-* AWS RDS for MySQL ver8.0.16
+* AWS RDS for MySQL (8.0.16)
 
 * AWS S3
 
@@ -61,13 +61,13 @@ https://keijiokita.com
 
 * SCSS-rails
 
-* Bootstarap ver4.4.1
+* Bootstarap (4.4.1)
 
-* font-awesome ver4.7.0
+* font-awesome (4.7.0)
 
-* JQuery ver2.1.3
+* iquery-rails (4.3.5)
 
-* bulma 
+* bulma-rails (0.8.0)
 
 
 ## 主要機能要件、gem一覧
