@@ -39,6 +39,9 @@ gem 'acts_as_votable'
 gem 'activesupport'
 gem 'railties'
 gem 'acts_as_votable'
+gem 'omniauth-facebook'
+gem 'omniauth-twitter'
+gem 'omniauth-google-oauth2'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
