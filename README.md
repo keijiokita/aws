@@ -31,6 +31,8 @@ https://keijiokita.com
 * Ruby (2.5.5)
 
 * Rails (5.2.0)
+* 
+* puma (4.3.3)
 
 * Docker (19.03.5)
 
@@ -56,19 +58,19 @@ https://keijiokita.com
 
 * AWS Application Load Balancer 
 
-* Google Cloud Platform API & OAuth 2.0
+* Google Cloud Platform API & omniauth-oauth2 (1.6.0)
 
 
 
 ### フロントエンド
 
-* SCSS-rails
+* SASS-rails (6.0.0)
 
 * Bootstarap (4.4.1)
 
 * font-awesome (4.7.0)
 
-* iquery-rails (4.3.5)
+* jquery-rails (4.3.5)
 
 * bulma-rails (0.8.0)
 
