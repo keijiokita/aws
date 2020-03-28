@@ -30,7 +30,7 @@ https://keijiokita.com
 
 * Ruby (2.5.5)
 
-* Rails (5.1.7)
+* Rails (5.2.0)
 
 * Docker (19.03.5)
 
