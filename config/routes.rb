@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  devise_for :users, controllers: { registrations: 'registrations',
+                                    omniauth_callbacks: 'users/omniauth_callbacks' 
+  }
   resources :shots do 
   	resources :comments 
   	member do 
@@ -7,8 +10,6 @@ Rails.application.routes.draw do
   	end
   end
  
-  devise_for :users, controllers: { registrations: 'registrations' }
-  
   root 'shots#index'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
