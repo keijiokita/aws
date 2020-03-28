@@ -56,6 +56,9 @@ https://keijiokita.com
 
 * AWS Application Load Balancer 
 
+* Google Cloud Platform API & OAuth 2.0
+
+
 
 ### フロントエンド
 
@@ -72,10 +75,11 @@ https://keijiokita.com
 
 ## 主要機能要件、gem一覧
 
-* deviseを用いたユーザー登録/編集 & ログイン機能
+* ユーザー登録/編集 & ログイン機能 (devise)
 
-* CarrierWave, MiniMagick, AWS S3 を用いた画像のアップロード機能
-    <p>jpg, jpeg, gif, png画像に対応可能</p>
+* googleアカウントからの認証ログイン機能 (omniauth-google-oauth2, devise)
+
+* jpg, jpeg, gif, png画像のアップロード機能 (CarrierWave, MiniMagick, AWS S3 )
 
 * 投稿一覧・投稿詳細表示機能
 
