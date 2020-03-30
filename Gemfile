@@ -44,6 +44,8 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'omniauth-twitter'
 gem 'omniauth-google-oauth2'
+gem 'aws-sdk-s3', require: false
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
