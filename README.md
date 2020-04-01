@@ -31,7 +31,7 @@ https://keijiokita.com
 * Ruby (2.5.5)
 
 * Rails (5.2.0)
-* 
+
 * puma (4.3.3)
 
 * Docker (19.03.5)
@@ -62,6 +62,8 @@ https://keijiokita.com
 
 * Rubocop (0.80.1) 
 
+* RSpec (3.7)
+
 
 
 ### フロントエンド
@@ -77,7 +79,7 @@ https://keijiokita.com
 * bulma-rails (0.8.0)
 
 
-## 主要機能要件、gem一覧
+## 主要機能要件、非機能要件、gem一覧
 
 * ユーザー登録/編集 & ログイン機能 (devise)
 
@@ -95,7 +97,11 @@ https://keijiokita.com
 
 * いいね機能
 
-* bootstrapによるレスポンシブ対応デザイン
+* レスポンシブ対応デザイン (bootstrap)
+
+* テスト機能 (RSpec) 
+
+* 静的コード解析(Rubocop)
 
 
 ## テストユーザーアカウント

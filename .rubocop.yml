@@ -8,3 +8,9 @@ Style/HashTransformKeys:
 
 Style/HashTransformValues:
   Enabled: true
+  
+Lint/RaiseException:
+  Enable: false
+  
+Lint/StructNewOverride:
+  Enable: false
