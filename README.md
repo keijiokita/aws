@@ -60,6 +60,8 @@ https://keijiokita.com
 
 * Google Cloud Platform API & omniauth-oauth2 (1.6.0)
 
+* Rubocop (0.80.1) 
+
 
 
 ### フロントエンド
