@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+1.upto(23) do |n|
+  Shot.create!(user_id: 1,
+               user_shot: open("#{Rails.root}/db/fixtures/img#{n}.jpg")
+              )
+end

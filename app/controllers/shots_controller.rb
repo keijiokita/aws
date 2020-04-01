@@ -7,7 +7,7 @@ class ShotsController < ApplicationController
   # GET /shots.json
   def index
     @shots = Shot.all.order('created_at DESC')
-    @shots = Shot.page(params[:page]).per(8)
+    @shots = Shot.page(params[:page]).per(12)
   end
 
   # GET /shots/1
