@@ -13,7 +13,7 @@ https://keijiokita.com
 
 ## 開発環境
 
-* macOS Catalina (10.15.3) (ローカル開発環境)
+* macOS Catalina (10.15.4) (ローカル開発環境)
 
 * AWS Cloud9 Ubuntu (18.04LTS)  (クラウド開発環境）
 
@@ -64,13 +64,14 @@ https://keijiokita.com
 
 * RSpec (3.7)
 
+* Kaminari 
 
 
 ### フロントエンド
 
 * SASS-rails (6.0.0)
 
-* Bootstarap (4.4.1)
+* Bootstarap (4.1.1)
 
 * font-awesome (4.7.0)
 
@@ -83,9 +84,9 @@ https://keijiokita.com
 
 * ユーザー登録/編集 & ログイン機能 (devise)
 
-* googleアカウントからの認証ログイン機能 (omniauth-google-oauth2, devise)
+* googleアカウントからの認証ログイン機能 (omniauth-google-oauth2/ devise)
 
-* jpg, jpeg, gif, png画像のアップロード機能 (CarrierWave, MiniMagick, AWS S3 )
+* jpg, jpeg, gif, png画像のアップロード機能 (CarrierWave/ MiniMagick/ AWS S3 )
 
 * 投稿一覧・投稿詳細表示機能
 
@@ -97,11 +98,13 @@ https://keijiokita.com
 
 * いいね機能
 
-* レスポンシブ対応デザイン (bootstrap)
+* レスポンシブ対応デザイン (bootstrap 4)
+
+* ページネーション機能 (Kaminari)
 
 * テスト機能 (RSpec) 
 
-* 静的コード解析(Rubocop)
+* 静的コード解析(Rubocop/ Capybara/ factory_bot)
 
 
 ## テストユーザーアカウント

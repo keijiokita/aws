@@ -34,6 +34,7 @@ gem 'simple_form'
 gem "mini_magick"
 gem 'impressionist'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
+gem 'bootstrap', '~> 4.1.1'
 gem 'gravatar_image_tag'
 gem 'acts_as_votable'
 gem 'activesupport'
@@ -45,6 +46,7 @@ gem 'omniauth-facebook'
 gem 'omniauth-twitter'
 gem 'omniauth-google-oauth2'
 gem 'aws-sdk-s3', require: false
+gem 'kaminari'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
