@@ -1,13 +1,10 @@
 # class Users::UsersController < Devise::UsersController
 
-
 #   private
 #   def user_params
 #     params.require(:user).permit(:image)
 #   end
-  
-  
-  
+
 #     def show
 #     @user = User.find(params[:id])
 #     @tweets = @user.tweets.all

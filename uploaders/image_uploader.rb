@@ -33,10 +33,10 @@ class ImageUploader < CarrierWave::Uploader::Base
   #   process resize_to_fit: [50, 50]
   # end
   # 画像の上限を200pxにする
-  process :resize_to_limit => [200, 200]
+  process resize_to_limit: [200, 200]
 
   # 保存形式をJPGにする
-  process :convert => 'jpg'
+  process convert: 'jpg'
 
   # サムネイルを生成する設定
   # version :thumb do
@@ -46,7 +46,7 @@ class ImageUploader < CarrierWave::Uploader::Base
   # Add a white list of extensions which are allowed to be uploaded.
   # For images you might use something like this:
   def extension_whitelist
-    %w(jpg jpeg gif png)
+    %w[jpg jpeg gif png]
   end
 
   # Override the filename of the uploaded files:
