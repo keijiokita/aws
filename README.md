@@ -5,7 +5,8 @@
 
 
 ## アーキテクチャ図
-<img width="1040" alt="0325" src="https://user-images.githubusercontent.com/44191141/77497925-d0c36100-6e91-11ea-95d3-78c4a4a1c91c.png">
+<img width="1015" alt="20200402" src="https://user-images.githubusercontent.com/44191141/78237210-f85f9c80-7515-11ea-805d-81e7ead96de4.png">
+
 
 ## URL 
 
