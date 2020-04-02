@@ -12,10 +12,10 @@ class UserShotUploader < CarrierWave::Uploader::Base
   # def store_dir
   #   "uploads/#{model.class.to_s.underscore}/#{mounted_as}/#{model.id}"
   # end
-  
-    def store_dir
+
+  def store_dir
     "uploads/shot/user_shot/#{model.id}"
-    end
+  end
 
   # Provide a default URL as a default if there hasn't been a file uploaded:
   # def default_url(*args)
@@ -27,7 +27,7 @@ class UserShotUploader < CarrierWave::Uploader::Base
 
   # Process files as they are uploaded:
   process resize_to_fill: [300, 300, "Center"]
-  
+
   # def scale(width, height)
   #   # do something
   # end

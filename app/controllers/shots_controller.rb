@@ -90,5 +90,4 @@ class ShotsController < ApplicationController
     def shot_params
       params.require(:shot).permit(:title, :description, :user_shot)
     end
-    
 end
