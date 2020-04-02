@@ -84,9 +84,9 @@ https://keijiokita.com
 
 * ユーザー登録/編集 & ログイン機能 (devise)
 
-* googleアカウントからの認証ログイン機能 (omniauth-google-oauth2/ devise)
+* googleアカウントからの認証ログイン機能 (omniauth-google-oauth2 / devise)
 
-* jpg, jpeg, gif, png画像のアップロード機能 (CarrierWave/ MiniMagick/ AWS S3 )
+* jpg, jpeg, gif, png画像のアップロード機能 (CarrierWave / MiniMagick / AWS S3 )
 
 * 投稿一覧・投稿詳細表示機能
 
@@ -102,9 +102,9 @@ https://keijiokita.com
 
 * ページネーション機能 (Kaminari)
 
-* テスト機能 (RSpec) 
+* 自動テスト機能 (RSpec / Capybara / factory_bot) 
 
-* 静的コード解析(Rubocop/ Capybara/ factory_bot)
+* 静的コード解析(Rubocop)
 
 
 ## テストユーザーアカウント
