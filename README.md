@@ -92,11 +92,11 @@ https://keijiokita.com
 
 * 投稿管理機能
 
-* 閲覧数カウント機能
+* 閲覧数カウント機能 (impressionist)
 
 * 投稿コメント機能 
 
-* いいね機能
+* いいね機能 (acts_as_votable)
 
 * レスポンシブ対応デザイン (bootstrap 4)
 
