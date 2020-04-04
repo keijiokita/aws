@@ -20,5 +20,4 @@ class User < ApplicationRecord
   has_many :comments, dependent: :destroy
   acts_as_voter
   
-
 end

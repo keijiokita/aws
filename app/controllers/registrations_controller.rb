@@ -1,6 +1,5 @@
 class RegistrationsController < Devise::RegistrationsController
       before_action :configure_account_update_params, only: [:update]
-    
 
  private
 
@@ -13,17 +12,15 @@ class RegistrationsController < Devise::RegistrationsController
   end
 
   protected
+
   def configure_account_update_params
-  devise_parameter_sanitizer.permit(:account_update, keys: [:avatar, :avatar_cache, :remove_avatar])
+  devise_parameter_sanitizer.permit(:account_update, keys: %i[avatar avatar_cache remove_avatar])
   end
-  
+
   protected
-  
-  def after_update_path_for(resource)
+
+  def after_update_path_for(_resource)
     edit_user_registration_path
   end
 
- 
-  
-  
 end
