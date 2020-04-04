@@ -10,7 +10,7 @@ Style/HashTransformValues:
   Enabled: true
   
 Lint/RaiseException:
-  Enable: false
+  Enable: true
   
 Lint/StructNewOverride:
-  Enable: false
+  Enable: true
