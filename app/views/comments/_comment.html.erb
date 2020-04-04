@@ -2,7 +2,11 @@
   <article class="media">
     <figure class="media-left">
       <p class="image is-48x48 user-thumb">
-        <!--<%= gravatar_image_tag(comment.user.email.gsub('spam', 'mdeering'), alt: comment.user.name, gravatar: { size: 48 }) %>-->
+        <% if comment.user.avatar.blank? %>
+        <%= image_tag 'no_avatar.png' %>
+        <% else %>
+       <%= image_tag comment.user.avatar.to_s %>
+       <% end %>
       </p>
     </figure>
     <div class="media-content">
