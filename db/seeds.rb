@@ -10,11 +10,11 @@
 
 
 
-# 5.times do |n|
-#   Shot.create!(user_id: "#{rand(10)}",
-#               user_shot: open("#{Rails.root}/db/fixtures/img#{n + 1}.jpg")
-#               )
-# end
+10.times do |n|
+  Shot.create!(user_id: "#{rand(10)}",
+              user_shot: open("#{Rails.root}/db/fixtures/img#{n + 1}.jpg")
+              )
+end
 
 
 
@@ -46,15 +46,3 @@
 
 
 
-
-# Faker::Name.female_first_name
-
-
-# 100.times do |n|
-#   email = Faker::Internet.email
-#   password = "password"
-#   User.create!(email: email,
-#               password: password,
-#               password_confirmation: password,
-#               )
-# end
