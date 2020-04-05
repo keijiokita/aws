@@ -54,13 +54,18 @@
      　　　 <%= image_tag 'no_avatar.png' %>
       　<%= f.hidden_field :avatar_cache %>
   　　　　  <% end %>
+  　　　　  <div class="originalFileBtn ">
+  　　　　          YOUR FILE
+
     　　  <%= f.file_field :avatar %>
+    　　  </div>
+    
  　　　　　　 </div>
-              
             </div>
         </div>
         <!--avatar-->
-   
+   <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+
         <%= f.button :submit, "Update", class:"button is-primary" %>
      
       <% end %>
