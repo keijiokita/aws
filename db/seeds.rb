@@ -9,16 +9,16 @@
 
 User.create!(
   [
-    {         name: Keiji,
+    {name: "Keiji",
               email: "keiji.okita.ca@icloud.com",
-              password: password,
-              password_confirmation: password,
+              password: "password",
+              password_confirmation: "password",
               avatar: open("#{Rails.root}/db/fixtures/avatar/keijiokita.png")
     },
-    {         name: TestUser,
+    {         name: "TestUser",
               email: "testuser@gmail.com",
-              password: testuser,
-              password_confirmation: testuser,
+              password: "testuser",
+              password_confirmation: "testuser",
               avatar: open("#{Rails.root}/db/fixtures/avatar/testuser.png")
      
     }
@@ -26,43 +26,45 @@ User.create!(
 )
 
 
-5.times do |n|
+10.times do |n|
   name = Faker::Name.female_first_name
   password = "password"
   User.create!(name: name,
               email: "#{n + 1}@test.com",
               password: password,
               password_confirmation: password,
-              avatar: open("#{Rails.root}/db/fixtures/avatar/#{n + 1}.png")
+              avatar: open("#{Rails.root}/db/fixtures/avatar/model_#{n + 1}.png")
   )
 end
 
-5.times do |n|
+10.times do |n|
   name = Faker::Name.male_first_name
   password = "password"
   User.create!(name: name,
               email: "1#{n + 1}@test.com",
               password: password,
               password_confirmation: password,
-              avatar: open("#{Rails.root}/db/fixtures/avatar/1#{n + 1}.png")
+              avatar: open("#{Rails.root}/db/fixtures/avatar/model_#{100+(n + 1)}.png")
   )
 end
 
 
-# 10.times do |n|
-#   Shot.create!(user_id: "#{rand(10)}",
-#               user_shot: open("#{Rails.root}/db/fixtures/shot/#{n + 1}.jpg")
-#               )
-# end
+100.times do |n|
+  id_number = Faker::Number.within(range: 1..10) 
+  shot_number = Faker::Number.within(range: 1..22) 
+  Shot.create!(user_id: id_number,
+              user_shot: open("#{Rails.root}/db/fixtures/shot/img#{shot_number}.jpg")
+              )
+end
 
 
 
-# 1.times do |n|
-#   comment = Faker::Quote.matz
-#   Comment.create!(user_id: "1",
-#                 # user_id: "#{rand(10)}",
-#                   shot_id: "6",
-#                   # shot_id: "#{rand(10)}",
-#                   response: comment
-# )
-# end
+100.times do |n|
+  id_number = Faker::Number.within(range: 1..10) 
+  shot_number = Faker::Number.within(range: 1..22) 
+  comment = Faker::Quote.matz
+  Comment.create!(user_id: id_number,
+                  shot_id: shot_number,
+                  response: comment
+)
+end
