@@ -99,7 +99,7 @@ https://keijiokita.com
 
 * いいね機能 (acts_as_votable)
 
-* レスポンシブ対応デザイン (bootstrap 4)
+* フロントエンドフレームワークを使用した、レスポンシブ対応デザイン (Bootstrap, Bulma)
 
 * ページネーション機能 (Kaminari)
 
