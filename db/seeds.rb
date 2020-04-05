@@ -6,11 +6,25 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-10.times do |n|
-  Shot.create!(user_id: "#{rand(10)}",
-              user_shot: open("#{Rails.root}/db/fixtures/img#{n + 1}.jpg")
-              )
-end
+
+User.create!(
+  [
+    {         name: Keiji,
+              email: "keiji.okita.ca@icloud.com",
+              password: password,
+              password_confirmation: password,
+              avatar: open("#{Rails.root}/db/fixtures/avatar/keijiokita.png")
+    },
+    {         name: TestUser,
+              email: "testuser@gmail.com",
+              password: testuser,
+              password_confirmation: testuser,
+              avatar: open("#{Rails.root}/db/fixtures/avatar/testuser.png")
+     
+    }
+  ]
+)
+
 
 5.times do |n|
   name = Faker::Name.female_first_name
@@ -19,7 +33,7 @@ end
               email: "#{n + 1}@test.com",
               password: password,
               password_confirmation: password,
-              avatar: open("#{Rails.root}/db/fixtures/model_#{n + 1}.png")
+              avatar: open("#{Rails.root}/db/fixtures/avatar/#{n + 1}.png")
   )
 end
 
@@ -30,10 +44,25 @@ end
               email: "1#{n + 1}@test.com",
               password: password,
               password_confirmation: password,
-              avatar: open("#{Rails.root}/db/fixtures/model_1#{n + 1}.png")
+              avatar: open("#{Rails.root}/db/fixtures/avatar/1#{n + 1}.png")
   )
 end
 
 
+# 10.times do |n|
+#   Shot.create!(user_id: "#{rand(10)}",
+#               user_shot: open("#{Rails.root}/db/fixtures/shot/#{n + 1}.jpg")
+#               )
+# end
 
-# Faker::Quote.matz
+
+
+# 1.times do |n|
+#   comment = Faker::Quote.matz
+#   Comment.create!(user_id: "1",
+#                 # user_id: "#{rand(10)}",
+#                   shot_id: "6",
+#                   # shot_id: "#{rand(10)}",
+#                   response: comment
+# )
+# end
