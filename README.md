@@ -66,6 +66,7 @@ https://keijiokita.com
 
 * Kaminari 
 
+* Faker (2.11) 
 
 ### フロントエンド
 
@@ -105,6 +106,9 @@ https://keijiokita.com
 * 自動テスト機能 (RSpec / Capybara / factory_bot) 
 
 * 静的コード解析(Rubocop)
+
+* ランダムなユーザー、投稿のダミーデータ自動作成 (Faker)
+
 
 
 ## テストユーザーアカウント
