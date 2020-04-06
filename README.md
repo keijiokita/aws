@@ -1,7 +1,7 @@
 # DesignFinder 
 デザイナーによる、全てのデザイナーのための美しいデザインに特化したSNSです。
 <br></br>
-<img width="1185" alt="スクリーンショット 2020-04-03 0 22 10" src="https://user-images.githubusercontent.com/44191141/78266796-37571780-7541-11ea-8eda-3ea8173a8c8b.png">
+<img width="1130" alt="スクリーンショット 2020-04-06 9 46 31" src="https://user-images.githubusercontent.com/44191141/78514340-c1c2a400-77eb-11ea-8adb-dd0742ac7676.png">
 
 ## アーキテクチャ図
 <img width="1012" alt="20200403" src="https://user-images.githubusercontent.com/44191141/78237508-62784180-7516-11ea-8436-e42e2ed5a93e.png">
