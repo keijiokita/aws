@@ -52,6 +52,8 @@
      　　　 <%= image_tag 'no_avatar.png' %>
       　<%= f.hidden_field :avatar_cache %>
       　<% end %>
+      　<div class="file">
+
       　<div class="originalFileBtn">
          Change Your Avatar
       　<%= f.file_field :avatar %>
@@ -59,7 +61,9 @@
             </div>
         </div>
         </div>
+        </div>
         <!--avatar-->
+
       <%= f.button :submit, "Update", class:"button is-primary" %>
      
       <% end %>

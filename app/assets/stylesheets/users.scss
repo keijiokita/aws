@@ -1,22 +1,33 @@
+
+.circle-avatar  {
+  width: 100em;
+  height: 10em;
+  position:relative;
+}
+
 .circle-avatar img {
   width: 100px;
   height: 100px;
+  margin-left: -120px;
+  position: absolute;
   border-radius: 80%;
   object-fit: cover;
 }
 
 
 .originalFileBtn {
+    font-weight: bold;
+    background-color: white;
     border: 3px solid;
     display: inline-block;
-    padding: 2px 1em;
-    position: relative;
+    padding: 1px 1em;
+    top: 85px;
+    position: absolute;
 }
 .originalFileBtn input[type="file"] {
-    height: 100%;
     left: 0;
     opacity: 0;
     position: absolute;
-    top: 0;
+    // top: 55px;
     width: 100%;
 }
