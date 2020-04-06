@@ -19,8 +19,8 @@ $pink-invert: #fff;
 
 $primary: $pink;
 $primary-invert: $pink-invert;
-$link: $primary;
-$link-hover: darken($primary, 80%);
+$link: #3F70FE;
+$link-hover: darken($primary, 100%);
 
 
 @import "bulma";

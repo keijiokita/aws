@@ -8,7 +8,7 @@ class ShotsController < ApplicationController
   def index
     @shots = Shot.all.order('created_at DESC')
     # pagenation
-    @shots = Shot.page(params[:page]).per(12)
+    @shots = Shot.page(params[:page]).per(24)
   end
 
   # GET /shots/1
