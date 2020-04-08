@@ -35,8 +35,9 @@ class ShotsController < ApplicationController
         format.html { redirect_to @shot, notice: 'Shot was successfully created.' }
         format.json { render :show, status: :created, location: @shot }
       else
-        format.html { render :new }
+        format.html { redirect_to ('/shots/new'), notice: 'ERROR: Please upload a picture.'}
         format.json { render json: @shot.errors, status: :unprocessable_entity }
+
       end
     end
   end
