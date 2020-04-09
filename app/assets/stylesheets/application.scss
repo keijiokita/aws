@@ -22,7 +22,7 @@ $turquoise-invert: #fff;
 $primary: $turquoise;
 $primary-invert: $turquoise-invert;
 $link: #3F70FE;
-$link-hover: darken($primary, 100%);
+$link-hover: darken($link, 100%);
 $danger: $pink;
 
 @import "bulma";
