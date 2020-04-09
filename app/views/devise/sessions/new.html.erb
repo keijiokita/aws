@@ -22,8 +22,9 @@
 				    <%= f.input :remember_me, wrapper: false, as: :boolean if devise_mapping.rememberable? %>
 				  	</div>
 					</div>
-
-				  <%= f.button :submit, "Log in", class:"button is-link is-medium" %>
+				  <%= button_tag type: 'submit', class:"button is-link" do%>
+				  <i class="fas fa-sign-out-alt"> Sign In</i>
+				  <% end %>
 				<% end %>
 				<br/>
 				<%= render "devise/shared/links" %>
