@@ -74,7 +74,7 @@ https://keijiokita.com
 
 * Bootstrap (4.1.1)
 
-* font-awesome (4.7.0)
+* font-awesome (5.6.3)
 
 * jquery-rails (4.3.5)
 
