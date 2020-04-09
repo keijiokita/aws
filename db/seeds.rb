@@ -2,19 +2,11 @@
 # The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
 
 User.create!(
-  [
-    {         name: "TestUser",
-              email: "testuser@gmail.com",
-              password: "testuser",
-              password_confirmation: "testuser",
-              avatar: open("#{Rails.root}/db/fixtures/avatar/testuser.png")}
-,
-    { name: "Keiji",
+     name: "Keiji",
      email: "keiji.okita.ca@icloud.com",
      password: "password",
      password_confirmation: "password",
-     avatar: open("#{Rails.root}/db/fixtures/avatar/keijiokita.png")}
-]
+     avatar: open("#{Rails.root}/db/fixtures/avatar/keijiokita.png")
 )
 
 10.times do |n|
@@ -40,7 +32,7 @@ end
 end
 
 100.times do |_n|
-  id_number = Faker::Number.within(range: 3..22)
+  id_number = Faker::Number.within(range: 2..22)
   shot_number = Faker::Number.within(range: 1..50)
   Shot.create!(user_id: id_number,
                user_shot: open("#{Rails.root}/db/fixtures/shot/img#{shot_number}.jpg"))
@@ -48,7 +40,7 @@ end
 
 
 200.times do |_n|
-  id_number = Faker::Number.within(range: 3..22)
+  id_number = Faker::Number.within(range: 2..22)
   shot_number = Faker::Number.within(range: 1..50)
   comment = Faker::Quote.matz
   Comment.create!(user_id: id_number,

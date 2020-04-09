@@ -16,12 +16,14 @@
 
 $pink: #ea4c89;
 $pink-invert: #fff;
+$turquoise:	#00D1B2;
+$turquoise-invert: #fff;
 
-$primary: $pink;
-$primary-invert: $pink-invert;
+$primary: $turquoise;
+$primary-invert: $turquoise-invert;
 $link: #3F70FE;
 $link-hover: darken($primary, 100%);
-
+$danger: $pink;
 
 @import "bulma";
 
