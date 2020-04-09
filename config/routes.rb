@@ -9,6 +9,10 @@ Rails.application.routes.draw do
   		put 'unlike', to: "shots#unlike"
   	end
   end
+  
+  devise_scope :user do
+    post 'users/guest_sign_in', to: 'users/sessions#new_guest'
+  end
  
  
  
