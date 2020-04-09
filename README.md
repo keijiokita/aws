@@ -109,11 +109,3 @@ https://keijiokita.com
 
 * ランダムなユーザー、画像投稿、コメント投稿のダミーデータ自動作成 (Faker)
 
-
-
-## テストユーザーアカウント
-
-Email: testuser@gmail.com
-Password: testuser
-
-* テストユーザーアカウントはご自由にお使い頂けますが、編集、削除等の操作は御遠慮下さい。
