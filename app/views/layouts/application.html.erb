@@ -9,7 +9,6 @@
     <%= stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
   <body>
   	<% if flash[:notice] %>
     	<div class="notification is-primary global-notification">
@@ -17,7 +16,7 @@
     	</div>
    	<% end %>
     <% if flash[:alert] %>
-    <div class="notification is-danger global-notification">
+    <div class="notification is-primary global-notification">
       <p class="alert"><%= alert %></p>
     </div>
     <% end %>
