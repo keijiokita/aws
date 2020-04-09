@@ -72,7 +72,7 @@ https://keijiokita.com
 
 * SASS-rails (6.0.0)
 
-* Bootstarap (4.1.1)
+* Bootstrap (4.1.1)
 
 * font-awesome (4.7.0)
 
