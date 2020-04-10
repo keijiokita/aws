@@ -59,11 +59,16 @@
               <% else %>
               
               <p class="control">
-                 <%= link_to "Sign In", new_user_session_path, class:"button is-link" %>
+                <%= link_to new_user_session_path, class:"button is-link" do %>
+                <i class="fas fa-sign-out-alt"> Sign In</i>
+                <% end %>
               </p>
               
-              <p class="control">
-                <%= link_to "Sign up", new_user_registration_path, class:"button is-link"%>
+              
+               <p class="control">
+                <%= link_to new_user_registration_path, class:"button is-link" do %>
+                <i class="fas fa-user-plus"> Sign Up</i>
+                <% end %>
               </p>
               <% end %>
               
