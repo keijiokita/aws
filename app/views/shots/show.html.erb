@@ -33,13 +33,14 @@
 						</div>
 					<% end %>
 
-					<div class="content">
-						<p>description</p>
-						<%= @shot.description %>
-					</div>
+
 					<div class="content">
 								<div><p>category</p></div>
 						<%= @shot.category %>
+					</div>
+					<div class="content">
+						<p>description</p>
+						<%= @shot.description %>
 					</div>
 					<section class="comments">
 						<h2 class="subtitle is-5"><%= pluralize(@shot.comments.count, 'Comment') %></h2>
