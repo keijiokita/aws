@@ -2,8 +2,22 @@
     "build": {
         "@saveall": true
     },
+    "format": {
+        "jsbeautify": {
+            "@formatOnSave": true,
+            "@jslinthappy": true,
+            "@keeparrayindentation": true
+        }
+    },
+    "general": {
+        "@stripws": true
+    },
     "instance": {
         "@automaticShutdown": "10080"
+    },
+    "javascript": {
+        "@formatOnSave": true,
+        "@use_jsbeautify": true
     },
     "language": {
         "tern_defs": {
@@ -20,6 +34,9 @@
             }
         }
     },
+    "php": {
+        "@formatOnSave": true
+    },
     "python": {
         "@path": "/usr/local/lib/python3.4/dist-packages:/usr/local/lib/python3.5/dist-packages"
     },
@@ -28,6 +45,9 @@
             "@inited": "true",
             "json()": {}
         }
+    },
+    "typescript": {
+        "@formatOnSave": true
     },
     "welcome": {
         "@first": true

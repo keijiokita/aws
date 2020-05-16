@@ -30,16 +30,25 @@
           </div>
         </div>
       </div>
-    </nav> 
+    </nav>
  <div class="navbar-end">
           <div class="navbar-item">
             <div class="field is-grouped">
-              
+
+
+
+<%= render 'search' %>
+
+
+
+
+
+
               <% if user_signed_in? %>
 
               <p class="control">
                 <%= link_to new_shot_path, class:"button is-link" do %>
-              <i class="fas fa-cloud-upload-alt">UPLOAD</i>                
+              <i class="fas fa-cloud-upload-alt">UPLOAD</i>
               <% end %>
               </p>
               <p class="control">

@@ -9,6 +9,13 @@ class ShotsController < ApplicationController
     @shots = Shot.all.order('created_at DESC')
     # pagenation
     @shots = Shot.page(params[:page]).per(24).order('updated_at DESC')
+    # ransack
+  end
+
+  def search
+  @q = Shot.ransack(params[:q])
+    # @shots = @q.result(distinct: true)
+  @shots = Shot.page(params[:page]).per(24).order('updated_at DESC')
   end
 
   # GET /shots/1
@@ -90,6 +97,6 @@ class ShotsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def shot_params
-      params.require(:shot).permit(:title, :description, :user_shot)
+      params.require(:shot).permit(:title, :description, :user_shot, :category)
     end
 end

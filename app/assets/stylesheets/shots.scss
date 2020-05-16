@@ -16,6 +16,7 @@
 	padding: 10px;
 	background: black;
 }
+
 .shots {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
@@ -26,7 +27,7 @@
 	@media only screen and (max-width: 1300px) {
 		grid-template-columns: repeat(4, 1fr);
 	}
-	@media only screen and (max-width: 1100px) { 
+	@media only screen and (max-width: 1100px) {
 		grid-template-columns: repeat(3, 1fr);
 	}
 	@media only screen and (max-width: 800px) {
@@ -37,6 +38,7 @@
 	}
 
 }
+
 .shot {
 	position: relative;
 	display: block;
@@ -122,7 +124,9 @@
 }
 
 .panel.show-shot-analytics {
-	a { color: #333; }
+	a {
+		color: #333;
+	}
 	.icon {
 		padding-right: .5rem;
 	}
@@ -148,6 +152,9 @@
 			padding: 0;
 		}
 	}
+	.content p {
+		font-weight: bold;
+	}
 }
 
 .shot-full {
@@ -155,14 +162,10 @@
 }
 
 
-.fas.fa-sign-in-alt{
+.fas.fa-sign-in-alt {
 	padding: 8px;
 }
 
-.fas.fa-user-plus{
+.fas.fa-user-plus {
 	padding: 8px;
 }
-
-@import "bootstrap";
-
-

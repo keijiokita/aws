@@ -2,20 +2,20 @@
   <%= f.error_notification %>
   <div class="columns is-centered">
     <div class="column is-half">
-  
+
     <% unless @shot.user_shot.blank? %>
     <%= image_tag (@shot.user_shot_url), id: "previewImage" %>
     <% end %>
     <output id="list"></output>
-    <div id="drop_zone">Drag & drop your image here   　
+    <div id="drop_zone">Drag & drop your image here
     <div class="file">
       　<div class="originalFileBtn">
          Select your image here
       　<%= f.file_field :user_shot %>
       　</div>
             </div></div>
-    <br />    <br />
-    <br />
+    <br><br>
+    <br>
     <%= f.input :user_shot, label: false, input_html: { class: "file-input", type: "file" }, wrapper: false, label_html: { class: "file-label" } %>
     <div class="field">
       <div class="control">
@@ -27,6 +27,11 @@
     	<div class="control">
       	<%= f.input :description, input_html: { class: "textarea"}, wrapper: false, label_html: { class: "label" } %>
       </div>
+    </div>
+
+     <div class="field">
+    	<div class="control">
+<%= f.select :category, [['art', 'art'], ['others', 'others']], {include_blank: 'Select your category'}, wrapper: false, label_html: { class: "label" } %></div>
     </div>
 
     <div class="field">
