@@ -6,18 +6,8 @@ class ShotsController < ApplicationController
   # GET /shots
   # GET /shots.json
   def index
-    @shots = Shot.all.order('created_at DESC')
-    # pagenation
-    @shots = Shot.page(params[:page]).per(24).order('updated_at DESC')
-    # ransack
+    @shots = Shot.page(params[:page]).per(24).order('id DESC')
   end
-
-  # def index
-  #   @q = Shot.ransack(params[:q])
-  #   @category = Shot.category.all
-  #   @shot = @q.result.includes( :category)
-  # end
-
   # GET /shots/1
   # GET /shots/1.json
   def show
