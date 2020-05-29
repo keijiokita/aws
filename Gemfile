@@ -7,7 +7,7 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '6.0.0'
+gem 'rails', '6.0.3.1'
 # Use mysql as the database for Active Record
 gem 'mysql2'
 # Use Puma as the app server
@@ -60,7 +60,7 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'rubocop', require: false
   gem 'rubocop-rails'
-  gem 'rspec-rails', '~> 3.6'
+  gem 'rspec-rails', '~> 4.0'
   gem 'factory_bot_rails'
   gem 'faker', '~> 2.11'
 end
