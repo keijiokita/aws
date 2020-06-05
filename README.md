@@ -64,7 +64,7 @@ https://keijiokita.com
 
 * RSpec (3.7)
 
-* Kaminari 
+* Kaminari (1.2.0)
 
 * Faker (2.11) 
 
@@ -80,6 +80,8 @@ https://keijiokita.com
 
 * bulma-rails (0.8.0)
 
+* google fonts 
+
 
 ## 主要機能要件、非機能要件、gem一覧
 
@@ -87,7 +89,7 @@ https://keijiokita.com
 
 * googleアカウントからの認証ログイン機能 (omniauth-google-oauth2 / devise)
 
-* jpg, jpeg, gif, png画像のアップロード機能 (CarrierWave / MiniMagick / AWS S3 )
+* jpg, jpeg, gif, png形式の画像のアップロード機能 (CarrierWave / MiniMagick / AWS S3 )
 
 * 投稿一覧・投稿詳細表示機能
 
@@ -99,7 +101,7 @@ https://keijiokita.com
 
 * いいね機能 (acts_as_votable)
 
-* フロントエンドフレームワークを使用した、レスポンシブ対応デザイン (Bootstrap, Bulma)
+* フロントエンドフレームワーク、レスポンシブ対応デザイン (Bootstrap, Bulma)
 
 * ページネーション機能 (Kaminari)
 

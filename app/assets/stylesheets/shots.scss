@@ -1,6 +1,8 @@
 // Place all the styles related to the Shots controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap";
+
 .hero.is-dark {
 	background-color: #282828 !important;
 }
@@ -163,6 +165,7 @@
 	padding: 8px;
 }
 
-@import "bootstrap";
 
 
+.hero-body{
+font-family: 'Lexend Tera', sans-serif;}
