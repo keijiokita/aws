@@ -29,9 +29,18 @@ end
                avatar: open("#{Rails.root}/db/fixtures/avatar/model_#{100 + (n + 1)}.png"))
 end
 
-# 10.times do |_n|
-#   id_number = Faker::Number.within(range: 2..22)
-#   shot_number = Faker::Number.within(range: 1..50)
-#   Shot.create!(user_id: id_number,
-#               user_shot: open("#{Rails.root}/db/fixtures/shot/img#{shot_number}.jpg"))
-# end
+10.times do |_n|
+  id_number = Faker::Number.within(range: 2..22)
+  shot_number = Faker::Number.within(range: 1..50)
+  Shot.create!(user_id: id_number,
+              user_shot: open("#{Rails.root}/db/fixtures/shot/img#{shot_number}.jpg"))
+end
+
+100.times do |_n|
+  id_number = Faker::Number.within(range: 1..9)
+  shot_number = Faker::Number.within(range: 2..8)
+  comment = Faker::Quotes::Shakespeare.hamlet_quote
+  Comment.create!(user_id: id_number,
+                  shot_id: shot_number,
+                  response: comment)
+end
