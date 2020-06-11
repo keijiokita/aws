@@ -32,11 +32,10 @@ gem 'devise'
 gem 'carrierwave'
 gem 'simple_form'
 gem "mini_magick"
-gem 'impressionist'
+gem 'impressionist', '~>1.6.1'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'bootstrap', '~> 4.1.1'
 gem 'font-awesome-sass'
-gem 'acts_as_votable'
 gem 'activesupport'
 gem 'railties'
 gem 'acts_as_votable'
@@ -47,6 +46,7 @@ gem 'omniauth-twitter'
 gem 'omniauth-google-oauth2'
 gem 'aws-sdk-s3', require: false
 gem 'kaminari'
+gem 'i18n'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
