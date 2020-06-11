@@ -34,7 +34,7 @@ gem 'simple_form'
 gem "mini_magick"
 gem 'impressionist', '~>1.6.1'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
-gem 'bootstrap', '~> 4.1.1'
+gem 'bootstrap', '~> 4.3.1'
 gem 'font-awesome-sass'
 gem 'activesupport'
 gem 'railties'
