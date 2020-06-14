@@ -1,6 +1,8 @@
 <%= render 'hero' %>
 
 <section class="section">
+  
+
   <div class="shots">
     <% @shots.each do |shot| %>
       <div class="shot-grid-item">
@@ -53,7 +55,6 @@
                     <span class="vote_count"><%= shot.get_likes.size %></span>
                   <% end %>
               <% end %>
-
             </div>
           </div>
         </nav>
