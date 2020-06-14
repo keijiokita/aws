@@ -28,9 +28,9 @@ https://keijiokita.com
 
 ### バックエンド
 
-* Ruby (2.5.5)
+* Rails (6.0.3.1)
 
-* Rails (5.2.0)
+* Ruby (2.5.5)
 
 * puma (4.3.3)
 

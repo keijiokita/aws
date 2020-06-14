@@ -1,21 +1,14 @@
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
 
-# User.create!(
-#   name: "Keiji",
-#   email: "keiji.okita.ca@icloud.com",
-#   password: "password",
-#   password_confirmation: "password",
-  # avatar: open("#{Rails.root}/db/fixtures/avatar/keijiokita.png")
-# )
+User.create!(
+  name: "Keiji",
+  email: "keiji.okita.ca@icloud.com",
+  password: "password",
+  password_confirmation: "password",
+  avatar: open("#{Rails.root}/db/fixtures/avatar/keijiokita.png")
+)
 
-# User.create!(
-#   name: "Keiji",
-#   email: "keiji.okita.ca@icloud.com",
-#   password: "password",
-#   password_confirmation: "password",
-  # avatar:File.open("#{Rails.root}/app/assets/images/ggb.jpg")
-# )
 
 10.times do |n|
   name = Faker::Name.female_first_name
