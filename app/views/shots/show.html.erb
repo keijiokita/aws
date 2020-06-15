@@ -78,7 +78,7 @@
               <% end %>
             <% else %>
                 <%= link_to like_shot_path(@shot), method: :put, class: "like_shot" do %>
-                  <span class="icon"><i class="fa fa-heartr"></i></span>
+                  <span class="icon"><i class="fa fa-heart"></i></span>
                   <span class="vote_count"><%= pluralize(@shot.get_likes.size, 'Like') %></span>
                 <% end %>
             <% end %>
