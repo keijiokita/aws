@@ -32,18 +32,24 @@ end
 
 
 
-50.times do |n|
+71.times do |n|
   id_number = Faker::Number.within(range: 1..20)
+  title = Faker::Restaurant.name  
+  description = Faker::Restaurant.description
   Shot.create!(user_id: id_number,
-              user_shot: open("#{Rails.root}/db/fixtures/shot/img#{n + 1}.jpg"))
+               title: title,
+               description: description,
+              # user_shot: open("#{Rails.root}/db/fixtures/shot/img#{n + 1}.jpg"))
+              user_shot: open("#{Rails.root}/db/fixtures/place/place#{n + 1}.jpg"))
+
 end
 
 
 
-100.times do |n|
+500.times do |n|
   id_number = Faker::Number.within(range: 1..20)
   shot_number = Faker::Number.within(range: 1..50)
-  comment = Faker::Quotes::Shakespeare.hamlet_quote
+  comment = Faker::Restaurant.review 
   Comment.create!(user_id: id_number,
                   shot_id: shot_number,
                   response: comment)
