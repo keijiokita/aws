@@ -40,18 +40,18 @@
                 
                 <% if current_user.liked? shot %>
                   <%= link_to unlike_shot_path(shot), method: :put, class: "unlike_shot" do %>
-                    <span class="icon"><i class="fa fa-heart has-text-danger"></i></span>
+                    <span class="icon"><i class="fas fa-gem has-text-danger"></i></span>
                     <span class="vote_count"><%= shot.get_likes.size %></span>
                   <% end %>
                 <% else %>
                   <%= link_to like_shot_path(shot), method: :put, class: "like_shot" do %>
-                    <span class="icon"><i class="fa fa-heart"></i></span>
+                    <span class="icon"><i class="fas fa-gem"></i></span>
                     <span class="vote_count"><%= shot.get_likes.size %></span>
                   <% end %>
                 <% end %>
               <% else %>
                   <%= link_to like_shot_path(shot), method: :put, class: "like_shot" do %>
-                    <span class="icon"><i class="fa fa-heart"></i></span>
+                    <span class="icon"><i class="fas fa-gem"></i></span>
                     <span class="vote_count"><%= shot.get_likes.size %></span>
                   <% end %>
               <% end %>
