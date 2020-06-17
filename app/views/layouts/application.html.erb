@@ -39,26 +39,26 @@
               <% if user_signed_in? %>
 
               <p class="control">
-                <%= link_to new_shot_path, class:"button is-link" do %>
+                <%= link_to new_shot_path, class:"button is-white" do %>
               <i class="fas fa-cloud-upload-alt">UPLOAD</i>                
               <% end %>
               </p>
               <p class="control">
-                <%= link_to current_user.name, edit_user_registration_path, class:"button is-link fas fa-user-cog" %>
+                <%= link_to current_user.name, edit_user_registration_path, class:"button is-white fas fa-user-cog" %>
               </p>
               <p class="control">
-               <%= link_to destroy_user_session_path, method: :delete, class:"button is-link" do %>
+               <%= link_to destroy_user_session_path, method: :delete, class:"button is-white" do %>
                 <i class="fas fa-sign-out-alt">Log Out</i>
                 <% end %>
                </p>
               <% else %>
               <p class="control">
-                <%= link_to new_user_session_path, class:"button is-link" do %>
+                <%= link_to new_user_session_path, class:"button is-white" do %>
                 <i class="fas fa-sign-out-alt">Sign In</i>
                 <% end %>
               </p>
                <p class="control">
-                <%= link_to new_user_registration_path, class:"button is-link" do %>
+                <%= link_to new_user_registration_path, class:"button is-white" do %>
                 <i class="fas fa-user-plus"> Sign Up</i>
                 <% end %>
               </p>
