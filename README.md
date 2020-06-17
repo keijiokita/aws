@@ -1,5 +1,6 @@
-# DesignFinder 
-デザイナーによる、全てのデザイナーのための美しいデザインに特化したSNSです。
+# HIDDENGEM
+訪日外国人を主なユーザーターゲットにした、定番の観光名所ではないディープな日本をシェアする、アグリゲーション&キュレーションサービスアプリ。
+"hidden gem" は直訳すれば「隠された宝石」。
 <br></br>
 <img width="1130" alt="スクリーンショット 2020-04-06 9 46 31" src="https://user-images.githubusercontent.com/44191141/78514340-c1c2a400-77eb-11ea-8adb-dd0742ac7676.png">
 
