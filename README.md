@@ -59,15 +59,21 @@ https://keijiokita.com
 
 * AWS Application Load Balancer 
 
-* Google Cloud Platform API & omniauth-oauth2 (1.6.0)
+* Google Cloud Platform API 
 
-* Rubocop (0.80.1) 
+* omniauth-oauth2 (1.6.0)
+
+* Rubocop (0.85.1) 
 
 * RSpec (3.7)
 
 * Kaminari (1.2.0)
 
 * Faker (2.11) 
+
+* Ransack (2.3.2)
+ 
+
 
 ### フロントエンド
 
