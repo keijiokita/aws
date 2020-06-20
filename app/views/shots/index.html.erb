@@ -1,23 +1,16 @@
 <%= render 'hero' %>
 <section class="section">
-
 <%= search_form_for @q do |f| %>
-
   # Search if the place name contains...
   <%= f.search_field :title_cont %>
-
-  
   <%= f.submit %>
 <% end %>
 </section>
-
-
 <section class="section">
   <div class="shots">
     <% @shots.each do |shot| %>
       <div class="shot-grid-item">
         <div class="shot-wrapper">
-          
         <%= link_to shot, class: "shot" do %>
           <%= image_tag(shot.user_shot_url) %>
           <div class="shot-data">
@@ -27,9 +20,7 @@
               <%= time_ago_in_words(shot.created_at) %>
             </div>
           </div
-          
         <% end %>
-
         <nav class="level shot-analytics">
           <div class="level-left"></div>
           <div class="level-right">
@@ -47,7 +38,6 @@
             </div>
             <div class="level-item likes">
               <% if user_signed_in? %>
-                
                 <% if current_user.liked? shot %>
                   <%= link_to unlike_shot_path(shot), method: :put, class: "unlike_shot" do %>
                     <span class="icon"><i class="fas fa-gem has-text-danger"></i></span>
@@ -83,7 +73,7 @@
         </div>
       </div>
     <% end %>
-    
   </div>
+  <%= paginate @shots %>
 </section>
 

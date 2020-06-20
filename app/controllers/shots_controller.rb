@@ -12,11 +12,12 @@ class ShotsController < ApplicationController
   # end
   
   
-  
+  # GET /shots
+  # GET /shots.json
   def index
   @q = Shot.ransack(params[:q])
   @shots = @q.result(distinct: true)
-
+  @shots = @shots.page(params[:page]).per(12).order('updated_at DESC')
   end
   
   # GET /shots/1
