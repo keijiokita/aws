@@ -7,6 +7,8 @@
 ## アーキテクチャ図
 <img width="1012" alt="20200403" src="https://user-images.githubusercontent.com/44191141/78237508-62784180-7516-11ea-8436-e42e2ed5a93e.png">
 
+<img width="1440" alt="スクリーンショット 2020-06-20 19 20 57" src="https://user-images.githubusercontent.com/44191141/85199595-b03d6280-b32b-11ea-95c5-0bc2917dae5e.png">
+
 
 ## URL 
 
