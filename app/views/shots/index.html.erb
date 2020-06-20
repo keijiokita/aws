@@ -2,7 +2,7 @@
 <section class="section">
 <%= search_form_for @q do |f| %>
   # Search if the place name contains...
-  <%= f.search_field :title_cont %>
+  <%= f.search_field :title_cont,:placeholder => "coffee" %>
   <%= f.submit %>
 <% end %>
 </section>
