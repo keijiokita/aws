@@ -39,7 +39,6 @@ end
   Shot.create!(user_id: id_number,
                title: title,
                description: description,
-              # user_shot: open("#{Rails.root}/db/fixtures/shot/img#{n + 1}.jpg"))
               user_shot: open("#{Rails.root}/db/fixtures/place/place#{n + 1}.jpg"))
 
 end
