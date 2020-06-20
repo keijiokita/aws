@@ -2,12 +2,11 @@
 訪日外国人を主なユーザーターゲットにした、定番の観光名所ではないディープな日本をシェアする、アグリゲーション&キュレーションサービスアプリ。
 "hidden gem" は直訳すれば「隠された宝石」。
 <br></br>
-<img width="1130" alt="スクリーンショット 2020-04-06 9 46 31" src="https://user-images.githubusercontent.com/44191141/78514340-c1c2a400-77eb-11ea-8adb-dd0742ac7676.png">
+<img width="1440" alt="スクリーンショット 2020-06-20 19 20 57" src="https://user-images.githubusercontent.com/44191141/85199595-b03d6280-b32b-11ea-95c5-0bc2917dae5e.png">
 
 ## アーキテクチャ図
 <img width="1012" alt="20200403" src="https://user-images.githubusercontent.com/44191141/78237508-62784180-7516-11ea-8436-e42e2ed5a93e.png">
 
-<img width="1440" alt="スクリーンショット 2020-06-20 19 20 57" src="https://user-images.githubusercontent.com/44191141/85199595-b03d6280-b32b-11ea-95c5-0bc2917dae5e.png">
 
 
 ## URL 
