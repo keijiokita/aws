@@ -1,8 +1,18 @@
 <%= render 'hero' %>
+<section class="section">
+
+<%= search_form_for @q do |f| %>
+
+  # Search if the place name contains...
+  <%= f.search_field :title_cont %>
+
+  
+  <%= f.submit %>
+<% end %>
+</section>
+
 
 <section class="section">
-  
-
   <div class="shots">
     <% @shots.each do |shot| %>
       <div class="shot-grid-item">
@@ -75,6 +85,5 @@
     <% end %>
     
   </div>
-      <%= paginate @shots %>
 </section>
 

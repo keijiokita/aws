@@ -32,7 +32,7 @@ end
 
 
 
-71.times do |n|
+70.times do |n|
   id_number = Faker::Number.within(range: 1..20)
   title = Faker::Restaurant.name  
   description = Faker::Restaurant.description

@@ -5,12 +5,20 @@ class ShotsController < ApplicationController
 
   # GET /shots
   # GET /shots.json
+  # def index
+  #   # @shots = Shot.all.order('created_at DESC')
+  #   # pagenation
+  #   @shots = Shot.page(params[:page]).per(24).order('updated_at DESC')
+  # end
+  
+  
+  
   def index
-    # @shots = Shot.all.order('created_at DESC')
-    # pagenation
-    @shots = Shot.page(params[:page]).per(24).order('updated_at DESC')
-  end
+  @q = Shot.ransack(params[:q])
+  @shots = @q.result(distinct: true)
 
+  end
+  
   # GET /shots/1
   # GET /shots/1.json
   def show
