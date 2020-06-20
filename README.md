@@ -118,3 +118,6 @@ https://keijiokita.com
 
 * ランダムなユーザー、画像投稿、コメント投稿のダミーデータ自動作成 (Faker)
 
+* Ransackによる検索機能 
+
+
