@@ -36,10 +36,14 @@ end
   id_number = Faker::Number.within(range: 1..20)
   title = Faker::Restaurant.name  
   description = Faker::Restaurant.description
+  latitude = Faker::Address.latitude
+  longitude = Faker::Address.longitude
   Shot.create!(user_id: id_number,
                title: title,
                description: description,
-              user_shot: open("#{Rails.root}/db/fixtures/place/place#{n + 1}.jpg"))
+              user_shot: open("#{Rails.root}/db/fixtures/place/place#{n + 1}.jpg"),
+              latitude:latitude,
+              longitude:longitude)
 
 end
 
@@ -53,3 +57,6 @@ end
                   shot_id: shot_number,
                   response: comment)
 end
+
+
+
