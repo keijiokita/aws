@@ -48,7 +48,8 @@ gem 'aws-sdk-s3', require: false
 gem 'kaminari'
 gem 'i18n'
 gem 'ransack'
-
+gem "gmaps4rails"
+gem "geocoder"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

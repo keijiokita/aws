@@ -72,7 +72,11 @@ https://keijiokita.com
 * Faker (2.11) 
 
 * Ransack (2.3.2)
- 
+
+* gmaps4rails
+
+* geocoder
+
 
 
 ### フロントエンド
