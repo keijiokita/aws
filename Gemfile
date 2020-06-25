@@ -50,6 +50,7 @@ gem 'i18n'
 gem 'ransack'
 gem "gmaps4rails"
 gem "geocoder"
+gem 'http'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

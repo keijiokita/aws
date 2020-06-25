@@ -38,9 +38,10 @@
 					</div>
 
 			<div class="shot-full">
-<input id="address" type="textbox" value="tokyo tower">
-<input type="button" value="SEARCH" onclick="codeAddress()">
 <div id='map'></div>
+<%= @shot.address %>
+<%= @shot.latitude %>
+<%= @shot.longitude %>
 
 </div>
 
@@ -99,43 +100,32 @@
 	</div>
 </div>
 
-<script>
-let map
-let geocoder
-// 下の1行を追加 
-const display = document.getElementById('display')
+<script type="text/javascript">
+  function initMap() {
 
-function initMap(){
-  geocoder = new google.maps.Geocoder()
+    var test = {lat: <%= @shot.latitude %>, lng: <%= @shot.longitude %>};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 5,
+      center: test
+    });
+    var transitLayer = new google.maps.TransitLayer();
+    transitLayer.setMap(map);
 
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 40.7828, lng:-73.9653},
-    zoom: 12,
-  });
+    var contentString = '住所：<%= @shot.address %>';
+    var infowindow = new google.maps.InfoWindow({
+      content: contentString
+    });
 
-  marker = new google.maps.Marker({
-    position:  {lat: 40.7828, lng:-73.9653},
-    map: map
-  });
-}
+    var marker = new google.maps.Marker({
+      position:test,
+      map: map,
+      title: contentString
+    });
 
-function codeAddress(){
-  let inputAddress = document.getElementById('address').value;
-
-  geocoder.geocode( { 'address': inputAddress}, function(results, status) {
-    if (status == 'OK') {
-      map.setCenter(results[0].geometry.location);
-      var marker = new google.maps.Marker({
-          map: map,
-          position: results[0].geometry.location
-      });
-      // 下の1行を追加 
-      display.textContent = "検索結果：" + results[ 0 ].geometry.location
-    } else {
-      alert('該当する結果がありませんでした：' + status);
-    }
-  });   
-}
+    marker.addListener('click', function() {
+      infowindow.open(map, marker);
+    });
+  }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAd6VENRw-lVuallB-_deAYJSw9ChjrKo4&callback=initMap&language=en" async defer></script>
 

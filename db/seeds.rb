@@ -38,12 +38,14 @@ end
   description = Faker::Restaurant.description
   latitude = Faker::Address.latitude
   longitude = Faker::Address.longitude
+  address = Faker::Address.state
   Shot.create!(user_id: id_number,
                title: title,
                description: description,
               user_shot: open("#{Rails.root}/db/fixtures/place/place#{n + 1}.jpg"),
               latitude:latitude,
-              longitude:longitude)
+              longitude:longitude,
+              address: address)
 
 end
 
