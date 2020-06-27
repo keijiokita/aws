@@ -10,7 +10,7 @@ class Shot < ApplicationRecord
 	acts_as_votable
  #enable GEOCODING FOR seeds.rb USE ONLY
  geocoded_by :address
-after_validation :geocode, if: :address_changed?
+ after_validation :geocode
   private
   def geocode
     uri = URI.escape("https://maps.googleapis.com/maps/api/geocode/json?address="+self.address.gsub(" ", "")+"&key=AIzaSyAd6VENRw-lVuallB-_deAYJSw9ChjrKo4&language=en")
