@@ -41,7 +41,6 @@ end
                title: title,
                description: description,
               user_shot: open("#{Rails.root}/db/fixtures/place/place#{n + 1}.jpg"),
-         
               address: address)
 
 end
