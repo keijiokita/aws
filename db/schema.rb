@@ -75,9 +75,9 @@ ActiveRecord::Schema.define(version: 2020_06_24_043145) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "user_shot"
-    t.float "latitude"
-    t.float "longitude"
-    t.string "address", default: "tokyo tower"
+    t.float "latitude", default: 35.6586
+    t.float "longitude", default: 139.745
+    t.string "address", default: "tokyo"
   end
 
   create_table "users", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
