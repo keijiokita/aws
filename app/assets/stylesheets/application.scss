@@ -126,3 +126,13 @@ footer{
 	padding: 8px;
 }
 
+.panel-heading, .panel-tabs, .panel-block,
+{
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.panel-heading:first-child, .panel-tabs:first-child, .panel-block:first-child {
+    border-top: none;
+}
