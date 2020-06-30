@@ -73,6 +73,8 @@ https://keijiokita.com
 
 * Ransack (2.3.2)
 
+* google maps API 
+
 * gmaps4rails
 
 * geocoder
