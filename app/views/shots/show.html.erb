@@ -19,6 +19,15 @@
 			</div>	
 		</div>
 
+
+
+   <section class="stats">
+        <%= render 'shared/stats' %>
+      </section>
+
+
+
+
 		<div class="columns">
 			<div class="column is-8">
 				<div class="shot-container">
@@ -36,7 +45,6 @@
 					<div class="content">
 						<%= @shot.description %>
 					</div>
-
 			<div class="shot-full">
 <div id='map'></div>
 <%= @shot.address %>
@@ -104,7 +112,6 @@
 		</div>
 	</div>
 </div>
-
 <script type="text/javascript">
   function initMap() {
 

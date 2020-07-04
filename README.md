@@ -111,6 +111,8 @@ https://keijiokita.com
 
 * 閲覧数カウント機能 (impressionist)
 
+* Follow機能 
+
 * 投稿コメント機能 
 
 * いいね機能 (acts_as_votable)
