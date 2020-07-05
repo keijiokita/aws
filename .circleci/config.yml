@@ -1,0 +1,10 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.5.5
+        auth:
+          username: keijiokita
+          password: ENV["DOCKERHUB_PASSWORD"]
+
+
