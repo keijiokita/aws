@@ -129,4 +129,6 @@ https://keijiokita.com
 
 * Ransackによる検索機能 
 
+* 緯度経度取得(geocoder)
+
 
