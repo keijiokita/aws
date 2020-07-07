@@ -78,7 +78,7 @@ https://keijiokita.com
 
 * gmaps4rails
 
-* geocoder
+* geocoder()
 
 
 
