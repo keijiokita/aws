@@ -79,7 +79,6 @@
 			</div>
 		</div>
 		<section class="comments">
-
 			<h2 class="subtitle is-5"><%= pluralize(@shot.comments.count, 'Comment') %></h2>
 			<%= render @shot.comments %>
 			<hr />
@@ -92,7 +91,6 @@
 			<div class="content"><%= link_to 'Sign in', new_user_session_path %> to leave a response.</div>
 			<% end %>
 		</section>
-
 	</div>
 </div>
 </div>
