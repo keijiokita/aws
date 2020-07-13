@@ -3,6 +3,19 @@ jobs:
   build:
     docker:
       - image: circleci/ruby:2.5.5
+    working_directory: ~/app
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            - v1-dependencies-
+      - run: yarn install
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+      - run: yarn test
         auth:
           username: keijiokita
           password: ENV["DOCKERHUB_PASSWORD"]
