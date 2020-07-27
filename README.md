@@ -26,6 +26,8 @@ https://keijiokita.com
 データベース
 * AWS RDS for MySQL (8.0.16)
 
+CI/CD
+* Circle CI 2.0
 ## 主要使用技術
 
 ### バックエンド
