@@ -33,7 +33,7 @@ gem 'carrierwave'
 gem 'simple_form'
 gem "mini_magick"
 gem 'impressionist'
-gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
+gem 'jquery-rails', '~> 4.5'
 gem 'bootstrap', '~> 4.3.1'
 gem 'font-awesome-sass'
 gem 'activesupport'
@@ -63,7 +63,7 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'rubocop', require: false
   gem 'rubocop-rails'
-  gem 'rspec-rails', '~> 3.6'
+  gem 'rspec-rails', '~> 6.0'
   gem 'factory_bot_rails'
   gem 'faker', '~> 2.11'
 end
